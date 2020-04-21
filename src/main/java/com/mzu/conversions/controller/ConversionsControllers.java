@@ -13,7 +13,7 @@ import com.mzu.conversions.services.ConversionServices;
 @RestController
 @RequestMapping("conversions")
 public class ConversionsControllers {
-	private final AtomicLong counter = new AtomicLong();
+	private AtomicLong counter = new AtomicLong();
 	private ConversionServices conversionServices;
 		
 	@Autowired

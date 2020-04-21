@@ -6,6 +6,7 @@ public class APIResponse {
 	private String symbols;
 	
 	public APIResponse(long id, double value, String symbols) {
+		this.id = id;
 		this.value = value;
 		this.symbols = symbols;
 	}
